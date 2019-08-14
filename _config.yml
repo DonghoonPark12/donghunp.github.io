@@ -106,8 +106,8 @@ analytics:
 
 
 # Site Author
-author:
-  name             : "Stack24"
+author: "Stack24"
+  name             : ""
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Humble, Reasonable"
   location         : "Seoul"
