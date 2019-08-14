@@ -103,11 +103,11 @@ author:
   name             : "Stack24"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Humble, Reasonable"
-  location         : ""
-  email            : ""
+  #location         : ""
+  #email            : ""
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+    #- label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
