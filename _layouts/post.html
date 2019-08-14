@@ -1,9 +1,35 @@
 ---
 layout: default
 ---
-<div id="disqus_thread"></div>
-<script>
-
+---
+layout: default_post
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header single-post-header" style="background-image:url('{{ site.url }}{{ page.image }}')">
+    <div>
+      <h1 class="post-title single-post-title" itemprop="name headline">{{ page.title }}</h1>
+      <p class="post-meta single-post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_long_string }}</time>
+        •
+        {% assign words = page.content | number_of_words %}
+        {% if words < 360 %}
+          1 min
+        {% else %}
+          {{ words | divided_by:180 }} mins
+        {% endif %}
+        read
+      </p>
+    </div>
+  </header>
+  <div class="wrapper">
+    <div class="single-post-summary">
+     <code> {{ page.summary }} </code>
+    </div>
+    <div class="post-content single-post-content" itemprop="articleBody">
+     <code> {{ content }} </code>
+    </div>
+    {% if page.comments %}
+        
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -21,6 +47,16 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  
+    {% endif %}
+  </div>
+</article>
+
+  
+  
+<div id="disqus_thread"></div>
+<script>
+
 
 /*{% if site.disqus-shortname %}{% include disqus.html %}{% endif %}*/
 {% if page.comments %} <div id="post-disqus" class="container"> {% include disqus.html %} </div> {% endif %}
