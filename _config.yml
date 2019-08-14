@@ -296,6 +296,6 @@ defaults:
       share: true
       related: true
       
-navigation:
-- title: Problem Solving
-    url: /Problem_Solving
+# navigation:
+# - title: Problem Solving
+#     url: /Problem_Solving
