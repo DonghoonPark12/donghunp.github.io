@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Stack24"
+title                    : "TBD"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Your Name"
@@ -107,7 +107,7 @@ analytics:
 
 # Site Author
 author: 
-  name             : ""
+  name             : "Stack24"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Humble, Reasonable"
   location         : "Seoul"
