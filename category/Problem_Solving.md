@@ -1,4 +1,5 @@
 ---
 layout: category
-title: Problem_Solving
+title: Problem Solving
+category: Problem_Solving
 ---
