@@ -295,3 +295,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      
+navigation:
+- title: Problem Solving
+    url: /Problem_Solving
