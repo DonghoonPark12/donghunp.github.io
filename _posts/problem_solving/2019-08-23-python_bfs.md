@@ -33,9 +33,11 @@ sample_input
 101011
 111011
 '''
+input = sys.stdin.readline()
+
 arr = []
 for _ in range(h):
-  arr.append(sys.stdin.readline())
+  arr.append(input)
 ```
 
 #### 큐의 push와 pop
