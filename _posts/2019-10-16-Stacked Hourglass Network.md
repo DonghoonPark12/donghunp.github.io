@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  “Stacked Hourglass Network”
-date:   2019-10-16
+title: Dijkstra Shortest Path 알고리즘
 comments: true
+categories: research
+tags: object detection
 ---
 
 컨볼루션을 반복해서 수행하고 작아지는 size를 다시 디컨볼루션으로 키워가며 만들기 때문에 Hourglass(?)라 부른다.  
