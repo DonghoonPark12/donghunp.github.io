@@ -11,7 +11,7 @@ tags: object detection
 
 Houglass Module을 여러번 반복하게 되면 정확도가 향상됨을 보임.
 
-![img](assets/Hourglass.gif)
+![img](/assets/Hourglass.gif)
 
 [Refenrence]  
 http://openresearch.ai/t/stacked-hourglass-networks-for-human-pose-estimation/68
