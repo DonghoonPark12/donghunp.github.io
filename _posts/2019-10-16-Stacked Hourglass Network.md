@@ -1,5 +1,5 @@
 ---
-title: Dijkstra Shortest Path 알고리즘
+title: Stacked Hourglass Networks
 comments: true
 categories: research
 tags: object detection
