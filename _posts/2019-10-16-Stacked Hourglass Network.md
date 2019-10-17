@@ -2,7 +2,7 @@
 title: Stacked Hourglass Networks
 comments: true
 categories: research
-tags: object detection
+tags: objectdetection
 ---
 
 컨볼루션을 반복해서 수행하고 작아지는 size를 다시 디컨볼루션으로 키워가며 만들기 때문에 Hourglass(?)라 부른다.  
