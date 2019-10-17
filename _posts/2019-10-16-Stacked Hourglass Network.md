@@ -11,17 +11,15 @@ tags: object detection
 
 단순 deconv가 아니라 nn-upsampling을 했다. 여러 스케일 정보를 모두 취합하겠다는 의도.
 
-Houglass Module을 여러번 반복하게(Stacked) 되면 정확도가 향상됨을 보임.
-
-
-<center><img src="/assets/191017_Stacked_HourGlass_Network/Hourglass.jpg" width="60%"></center>  
-  
+Houglass Module을 여러번 반복하게(Stacked) 되면 정확도가 향상됨을 보임.  
+<center><img src="/assets/191017_Stacked_HourGlass_Network/Hourglass.jpg" width="80%"></center>    
+    
 전체 네트워크 구조는 아래와 같다.
-<center><img src="/assets/191017_Stacked_HourGlass_Network/Hourglass_network.png" width="60%"></center>  
-
+<center><img src="/assets/191017_Stacked_HourGlass_Network/Hourglass_network.png" width="80%"></center>    
+  
 각 블록은 Residual 모듈 형태이다. 모든 Residual 모듈의 Output Channel은 크기가 256이다.
-<center><img src="/assets/191017_Stacked_HourGlass_Network/Rasidual_module.png" width="60%"></center>    
-
+<center><img src="/assets/191017_Stacked_HourGlass_Network/Rasidual_module.png" width="80%"></center>       
+  
 해당 네트워크로 모든 어려운 상황을 다 다룰 수는 없지만, Heavy Occulusion이나 다수의 사람이 근점하여 존재하는 상황(Multiple people in close proximity)에서 강인한 성능을 보였다는 것으로 논문은 마무리된다.  
   
   
