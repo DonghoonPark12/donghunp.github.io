@@ -23,7 +23,7 @@ Houglass Module을 여러번 반복하게(Stacked) 되면 정확도가 향상됨
 해당 네트워크로 모든 어려운 상황을 다 다룰 수는 없지만, Heavy Occulusion이나 다수의 사람이 근점하여 존재하는 상황(Multiple people in close proximity)에서 강인한 성능을 보였다는 것으로 논문은 마무리된다.  
   
   
-휴먼 자세 예측(Human Pose Estimation)에서 17년도에 제안된 논문이지만, 본 논문에서 사용된 Hourglass Network는 이후 AnchorFree Detection에서 Backbone 네트워크로 응용되어 된다(CornerNet, ExtremeNet). 
+휴먼 자세 예측(Human Pose Estimation)에서 17년도에 제안된 논문이지만, 본 논문에서 사용된 Hourglass Network는 이후 AnchorFree Detection에서 Backbone 네트워크로 응용되어 사용된다(CornerNet, ExtremeNet). 
 
 [Refenrence]  
 http://openresearch.ai/t/stacked-hourglass-networks-for-human-pose-estimation/68  
