@@ -15,7 +15,8 @@ baseurl:          /
 
 author:
   name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  url                      : "https://donghunp.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+  baseurl                  : "" # the subpath of your site, e.g. "/blog"
 
 paginate:         5
 
@@ -24,3 +25,5 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/poole/hyde
+
+remote_theme : poole/hyde
