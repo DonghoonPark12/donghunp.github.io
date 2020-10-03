@@ -238,7 +238,10 @@ tag_archive:
 #   enabled:
 #     - categories
 #     - tags
-#   layouts:
+layouts:
+classes:
+ - Basic
+ - Graph
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
 #   permalinks:
