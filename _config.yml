@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          :
     anonymize_ip         : # true, false (default)
@@ -87,7 +87,7 @@ author:
   location         : "Seoul"
   email            : "donghunp1212@gmail.com"
   links:
-    - label: "Email"
+    - label: "Donghunp1212@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
